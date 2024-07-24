@@ -1,0 +1,17 @@
+{
+  "name": "@packages/elysia-firebase-bridge",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
+  "type": "module",
+  "dependencies": {
+    "elysia": "^1.1.3",
+    "express": "^4.19.2",
+    "firebase-functions": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

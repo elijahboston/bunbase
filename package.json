@@ -1,0 +1,27 @@
+{
+  "name": "bunbase",
+  "devDependencies": {
+    "@biomejs/biome": "1.6.1",
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "build": "turbo build --env-mode=loose",
+    "dev": "turbo --env-mode=loose --filter @functions/* dev",
+    "deploy": "firebase deploy --only functions",
+    "emulators": "firebase emulators:start --only functions,storage,firestore",
+    "serve": "bun run serve.ts",
+    "ladle": "turbo --env-mode=loose --filter @packages/ui dev",
+    "lint": "turbo lint && bun run lint:repo",
+    "lint:repo": "bunx sherif@latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.4.3",
+    "turbo": "latest"
+  },
+  "packageManager": "bun@1.0.15",
+  "workspaces": [
+    "functions/*",
+    "packages/*"
+  ],
+  "private": true
+}
