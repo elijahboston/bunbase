@@ -1,6 +1,6 @@
 # BunBase
 
-Bun + 🔥 Firebase + 🐱 ElysiaJS
+[Bun](https://bun.sh/) + 🔥 [Firebase](https://firebase.google.com/) + 🐱 [ElysiaJS](https://elysiajs.com/)
 
 # Why?
 
