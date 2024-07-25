@@ -35,7 +35,7 @@ Using Bun lets us take advantage of Elysia (written natively in Bun), which give
 - [Auto-generated strongly typed client](https://elysiajs.com/eden/treaty/overview.html)
 - [Extendable context](https://elysiajs.com/essential/context.html#extending-context)
 
-Combined with Firebase's ease of deployment and scalability we have a stack that eliminates the overhead and hackery of traditional NodeJS monorepos, especially when used with Firebase.
+Combined with Firebase's ease of deployment and scalability we have a stack that eliminates the overhead and hackery of traditional NodeJS monorepos.
 
 # How it works
 
